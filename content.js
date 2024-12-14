@@ -122,9 +122,9 @@ window.addEventListener('load', async function () {
         safeMode = true
     }
 
-    const pinImg = 'https://github.com/AkiraCheat/UIFix/blob/main/assets/pin.png';
-    const viewImg = 'https://github.com/AkiraCheat/UIFix/blob/main/assets/view.png';
-    const safeImg = 'https://github.com/AkiraCheat/UIFix/blob/main/assets/safe.png';
+    const pinImg = 'https://raw.githubusercontent.com/AkiraCheat/UIFix/refs/heads/main/assets/pin.png';
+    const viewImg = 'https://raw.githubusercontent.com/AkiraCheat/UIFix/refs/heads/main/assets/view.png';
+    const safeImg = 'https://raw.githubusercontent.com/AkiraCheat/UIFix/refs/heads/main/assets/safe.png';
 
     setInterval(() => {
         let element = document.querySelector('[class^="styles_columnTwo__"]');
